@@ -10,7 +10,7 @@ public class Main {
         Scanner scan = new Scanner(System.in);
 
         double raio = scan.nextDouble();
-        double volume = (4f / 3f)  * NUMERO_DE_PI * Math.pow(raio,3);
+        double volume = (4d / 3d)  * NUMERO_DE_PI * Math.pow(raio,3);
 
         System.out.printf("VOLUME = %.3f%n",volume);
     }
