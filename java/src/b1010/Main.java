@@ -17,6 +17,6 @@ public class Main {
 
         double valorTotalAPagar = valorAPagar1 + valorAPagar2;
 
-        System.out.printf("VALOR A PAGAR: R$ %.2f",valorTotalAPagar);
+        System.out.printf("VALOR A PAGAR: R$ %.2f%n",valorTotalAPagar);
     }
 }
